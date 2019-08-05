@@ -1,6 +1,6 @@
 # Script to find what has been install from your bash history.
 
-I wanted a way of when i backup of my ubuntu desktop to produce a list of apps, snaps and PPA have been installed since the system has been installed from the command line.
+I wanted a way of when i backup my ubuntu desktop is to produce a list of apps, snaps and PPA have been installed since the system has been oringal installed using the command line.
 
 This script create a file, check the following commands have been run by checking the bash history and write to the file
 
