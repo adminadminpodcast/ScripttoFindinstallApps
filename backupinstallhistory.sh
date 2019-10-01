@@ -1,3 +1,4 @@
+#!/bin/bash
 ## Locatation of where to store logs of installed Apps
 filepath="/home/alister/Al Scripts/appinstalled.txt"
 ## Create File if does not exist
@@ -7,8 +8,8 @@ fi
 ## Load a Lists of Cmds already add to above file and put it into array
 ListofCMDS=()
 input="/home/alister/Al Scripts/appinstalled.txt"
-while IFS= read -r line2; do
-  ListofCMDS+=( "$line2" )
+while IFS= read -r line3; do
+  ListofCMDS+=( "$line3" )
 done < "$filepath"
 ## Pull the lists of cmds from the history and put in into array
 History=()
